@@ -1,0 +1,61 @@
+customer_id,first_name,last_name,email,phone,address,date_of_birth,created_at
+CUST00000001,Donald,Garcia,johnsonjoshua@example.org,,"600 Jeffery Parkways, New Jamesside, MT 29394",1976-05-25,2026-01-31 01:21:24
+CUST00000002,Amanda,Dudley,lisa02@example.net,(254)923-5116x15594,"959 Janet Cape Apt. 413, South Joshuastad, GA 49021",1970-01-02,2025-04-11 02:08:32
+CUST00000003,Jeremy,Johnson,jacqueline19@example.net,(783)227-6483,"39537 Wilkerson Row Suite 242, Lake Anna, KS 98413",1985-08-10,2025-09-28 03:14:01
+CUST00000004,Erin,Wilson,icox@example.net,610.212.2691x6697,"514 Moore Alley Suite 828, Port Colleenhaven, PA 26572",1956-03-24,2025-08-16 18:54:27
+CUST00000005,Samantha,George,amberosborne@example.net,,"4303 Christopher Oval, Port Amandaberg, DC 86975",1978-03-04,2025-12-31 09:43:48
+CUST00000006,Jeffrey,Morgan,josephbrennan@example.com,383.546.5787,"301 Jeremy Bypass, Chadbury, KY 88185",1978-11-11,2025-04-14 18:18:42
+CUST00000007,Donna,Gomez,,+1-329-397-3763,"106 Mcbride Coves, East James, NV 18874",1974-07-15,2025-03-21 21:06:47
+CUST00000008,Michelle,Barrera,steven17@example.net,908-501-3267,"4746 Moore Hill, North Beth, ND 08490",1996-09-23,2025-06-30 22:39:56
+CUST00000009,Shelly,Hudson,williamsthomas@example.net,(808)312-1913,"169 Donovan Ford, Johnfurt, DC 88540",1989-10-03,2025-06-20 08:59:57
+CUST00000010,Albert,Howell,wstewart@example.org,,"83842 Ibarra Gardens, Justinmouth, MP 71701",1993-09-14,2025-06-22 07:58:35
+CUST00000011,James,Walters,contrerasangela@example.net,524-711-8244,"0164 Adam Trail Apt. 427, Hoffmanville, CA 91074",2007-05-05,2025-02-23 03:13:17
+CUST00000012,Michelle,Cherry,davenportbrandi@example.org,(420)545-0533x15869,"25634 Kristin Coves Suite 073, Port Samantha, MI 40502",2001-08-31,2026-07-10 02:57:46
+CUST00000013,Daniel,Hamilton,jeffreykeller@example.com,641-245-8685x01429,"9816 Jonathan Station Suite 088, West Ryan, TN 43780",1988-03-26,2025-07-01 04:27:36
+CUST00000014,Kevin,Clark,cortezkevin@example.com,+1-865-264-8236x62994,"7738 Leon Underpass Apt. 148, Clarencebury, TX 41188",1961-02-11,2026-07-18 20:04:13
+CUST00000015,Jeffery,Brock,dylanwilliams@example.com,+1-317-869-3676x320,"83172 Contreras Points Suite 798, Rivasside, NV 21362",1996-06-07,2026-08-30 12:04:38
+CUST00000016,Edward,Reyes,wcole@example.org,+1-348-473-4714x3455,"66587 Brown Village, Priceshire, UT 03061",2004-02-17,2026-09-14 09:16:42
+CUST00000017,Jennifer,Pittman,wwoods@example.com,001-766-888-9373x46706,"PSC 9806, Box 9901, APO AP 56680",1955-01-23,2026-09-03 15:55:43
+CUST00000018,Debra,Harrington,qwhite@example.com,737-555-6464x17080,"30923 Thomas Crescent, South Holly, WI 48852",1957-03-31,2026-02-12 23:18:24
+CUST00000019,Heidi,Turner,stricklandfrank@example.com,590-349-6631,"058 Stanley Cliff, Alexanderchester, GU 64752",1953-01-04,2025-10-02 02:06:36
+CUST00000020,Melissa,Rivas,cynthia72@example.com,(684)798-7769,"79965 Troy Islands Apt. 735, Matthewview, OH 01831",1980-12-25,2025-03-27 18:11:53
+CUST00000021,Katherine,Vaughn,allenrichard@example.net,,"0143 Holt Inlet Suite 788, Ronaldside, MA 46613",1993-08-28,2025-10-17 19:04:23
+CUST00000022,Marissa,Phillips,kristopher31@example.net,651.382.3374,"82400 Terry Crossroad Suite 109, Taylormouth, MA 24665",1949-04-28,2025-05-14 11:11:11
+CUST00000023,Shannon,Ramos,ewilson@example.com,519.802.2941x3186,"9909 Stacey Fords Apt. 412, East Andrea, GA 00851",1973-08-17,2025-10-15 06:38:45
+CUST00000024,Margaret,Jones,ocarter@example.com,001-447-613-4936x183,"947 Taylor Hollow Suite 488, Kimton, FM 57127",1995-10-24,2025-07-07 17:09:29
+CUST00000025,Cynthia,Vasquez,anthony39@example.net,4498027874,"5512 Jenkins Park Suite 680, Millerview, MD 15695",1998-05-26,2025-09-09 07:01:02
+CUST00000026,Sara,Kim,sandovalamy@example.com,6384597703,"93248 Andrea Course, Port Robin, NH 15897",1989-11-26,2026-08-07 16:55:17
+CUST00000027,Joshua,Tyler,tyronemoran@example.net,001-446-377-3782x639,"44997 Sean Orchard Suite 588, Gibsonmouth, VI 25228",1993-04-17,2025-05-03 20:18:22
+CUST00000028,Morgan,Alexander,xhall@example.com,7573662702,"26217 Morgan Square Suite 158, Finleyfort, VI 71413",1948-04-09,2026-02-21 22:55:37
+CUST00000029,Laura,Carter,younggabrielle@example.com,216.711.7240,"86922 Christian Ways, Harveybury, NM 76936",1955-07-27,2025-04-28 16:57:16
+CUST00000030,Yvonne,Castaneda,dlittle@example.com,+1-607-548-2175x94647,"594 Johnson Village Suite 409, New Julieport, WI 30663",1987-02-20,2026-07-15 05:44:36
+CUST00000031,David,Ryan,jeffery39@example.com,+1-421-504-7095x21456,"Unit 8842 Box 4745, DPO AE 61886",1950-12-14,2025-02-16 16:32:57
+CUST00000032,Brenda,Carson,michelleramsey@example.com,+1-751-660-4817,"USS Leonard, FPO AA 03781",1987-12-27,2026-09-17 03:58:49
+CUST00000033,Shawn,Santiago,rose31@example.net,446.812.0047x113,"261 Gilbert Harbors Apt. 537, Sampsonstad, CT 90374",1970-10-29,2025-12-27 06:13:39
+CUST00000034,Stacy,Holloway,bruce43@example.org,,"900 Sanchez Crossroad, North Maria, OH 27653",1985-09-24,2025-04-16 02:16:23
+CUST00000035,Michael,Kramer,markhernandez@example.net,4422284210,"40268 Julie Mountains, Stricklandhaven, OR 14794",1976-08-02,2025-11-25 16:52:56
+CUST00000036,David,Weber,soniawilliams@example.net,447.300.7661x77115,"9847 Garcia Squares Apt. 836, Beasleychester, MA 59942",1972-12-17,2025-09-18 11:15:26
+CUST00000037,Elizabeth,Jenkins,edwardslarry@example.com,(227)711-1161x528,"049 Bell Ports Apt. 273, West Meganstad, DE 37013",1984-11-23,2025-04-24 00:33:33
+CUST00000038,Ashley,Morales,xbruce@example.net,+1-480-494-0244x550,"83667 Moore Inlet, Kimberlyshire, PA 11636",2005-12-09,2024-12-10 05:20:52
+CUST00000039,Michael,Rodriguez,ericwilliamson@example.net,547-367-9764,"403 Joyce Centers Apt. 343, Port Jonathan, MD 16227",1946-05-10,2025-11-20 16:34:58
+CUST00000040,Ashley,Mckinney,ythompson@example.net,001-738-885-1606x071,"0529 Collier Lake, South Meganbury, NE 77685",1973-01-29,2025-12-11 08:01:05
+CUST00000041,Jessica,Fuentes,fosterkyle@example.com,752.718.1883,"24329 Kathleen Shoal, East Stephaniefort, NH 99387",1984-03-10,2026-06-12 13:47:06
+CUST00000042,Lance,Hayes,kmaldonado@example.net,+1-795-352-7177x4490,"19986 Carpenter Turnpike Apt. 793, Cassidyhaven, FL 08610",1976-06-26,2025-01-18 18:03:47
+CUST00000043,Samantha,Hughes,toni18@example.net,(703)777-8892,"515 Angela Lights, Johnathanberg, MA 11183",1985-06-26,2026-03-29 19:16:28
+CUST00000044,Andrew,Parker,sabrinacollins@example.net,001-862-791-4865x281,"USNV Meza, FPO AA 25667",1961-03-30,2025-02-14 05:03:08
+CUST00000045,William,Fernandez,chrisrichard@example.org,,"592 Moore Falls, Lake Samuel, MT 48250",1991-11-09,2026-05-12 06:41:51
+CUST00000046,Tammy,Montoya,tarabishop@example.net,838.834.7359x774,"0758 Jennifer Path, West Christopherburgh, KY 59394",2007-06-08,2025-12-03 02:14:13
+CUST00000047,Lucas,Garcia,mariahdavis@example.org,550.260.6853x615,"20472 West Avenue Apt. 043, New Shelby, PA 69677",1974-08-19,2025-01-24 17:19:17
+CUST00000048,Christina,Allen,john10@example.org,(897)211-7980x89324,"518 Peter Mountains, Lake Paulstad, KS 98453",1946-12-07,2025-08-03 17:21:38
+CUST00000049,Crystal,Cain,cooperjessica@example.net,995-920-5852,"43030 Mahoney Passage Suite 874, Port Deborahport, MI 06766",2004-09-29,2026-03-23 16:22:01
+CUST00000050,Amy,Morris,joshua56@example.com,001-876-452-7758x4161,"7962 Bell Canyon Suite 964, North Emilyfurt, MN 67752",2000-05-05,2026-06-04 19:45:35
+CUST00000150,Donald,Garcia,johnsonjoshua@example.org,,"600 Jeffery Parkways, New Jamesside, MT 29394",1976-05-25,2026-01-31 01:21:24
+CUST00000151,Amanda,Dudley,lisa02@example.net,(254)923-5116x15594,"959 Janet Cape Apt. 413, South Joshuastad, GA 49021",1970-01-02,2025-04-11 02:08:32
+CUST00000152,Jeremy,Johnson,jacqueline19@example.net,+1-220-429-7021x35569,"39537 Wilkerson Row Suite 242, Lake Anna, KS 98413",1985-08-10,2025-09-28 03:14:01
+CUST00000153,Erin,Wilson,icox@example.net,+1-375-257-1928x56543,"514 Moore Alley Suite 828, Port Colleenhaven, PA 26572",1956-03-24,2025-08-16 18:54:27
+CUST00000154,Samantha,George,amberosborne@example.net,,"4303 Christopher Oval, Port Amandaberg, DC 86975",1978-03-04,2025-12-31 09:43:48
+CUST00000155,Jeffrey,Morgan,josephbrennan@example.com,001-927-586-8144x7394,"301 Jeremy Bypass, Chadbury, KY 88185",1978-11-11,2025-04-14 18:18:42
+CUST00000156,Donna,Gomez,,+1-329-397-3763,"106 Mcbride Coves, East James, NV 18874",1974-07-15,2025-03-21 21:06:47
+CUST00000157,Michelle,Barrera,steven17@example.net,321-672-7155,"4746 Moore Hill, North Beth, ND 08490",1996-09-23,2025-06-30 22:39:56
+CUST00000158,Shelly,Hudson,williamsthomas@example.net,(808)312-1913,"169 Donovan Ford, Johnfurt, DC 88540",1989-10-03,2025-06-20 08:59:57
+CUST00000159,Albert,Howell,wstewart@example.org,,"83842 Ibarra Gardens, Justinmouth, MP 71701",1993-09-14,2025-06-22 07:58:35

@@ -1,0 +1,8 @@
+﻿# YottaFlex Customer 360 Data Pipeline
+# Dependencies
+pandas==2.2.2
+numpy==1.26.4
+Faker==25.2.0
+PyYAML==6.0.1
+pytest==8.2.2
+python-dateutil==2.9.0.post0
