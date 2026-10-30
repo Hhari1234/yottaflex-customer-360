@@ -1,0 +1,29 @@
+﻿python : C:\Users\harir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pytest_asyncio\plugin.py:299: 
+PytestDeprecationWarning: The configuration option "asyncio_default_fixture_loop_scope" is unset.
+At line:4 char:80
++ ... ustomer-360"; python -m pytest tests/test_pipeline.py -v 2>&1 | Out-F ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\harir\...cope" is unset.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+The event loop scope for asynchronous fixtures will default to the "fixture" caching scope. Future versions of 
+pytest-asyncio will default the loop scope for asynchronous fixtures to "function" scope. Set the default fixture loop 
+scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: "function", 
+"class", "module", "package", "session"
+
+  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
+============================= test session starts =============================
+platform win32 -- Python 3.12.5, pytest-8.2.2, pluggy-1.6.0 -- C:\Users\harir\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\harir\Documents\Projects\yottaflex-customer-360
+plugins: anyio-4.15.0, Faker-25.2.0, asyncio-1.4.0, cov-7.0.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 5 items
+
+tests/test_pipeline.py::TestPipeline::test_data_generation PASSED        [ 20%]
+tests/test_pipeline.py::TestPipeline::test_ingestion PASSED              [ 40%]
+tests/test_pipeline.py::TestPipeline::test_validation PASSED             [ 60%]
+tests/test_pipeline.py::TestPipeline::test_deduplication PASSED          [ 80%]
+tests/test_pipeline.py::TestPipeline::test_unified_view PASSED           [100%]
+
+============================== 5 passed in 1.71s ==============================

@@ -1,0 +1,2 @@
+﻿2026-10-30 20:42:27,815 - yottaflex_pipeline - INFO - Pipeline completed successfully. Output: 50 unified customers
+Run RUN_20261030_204227_a7bb616b completed in 0.23s. Unified customers: 50, Rejected: 0, Duplicates: 10
