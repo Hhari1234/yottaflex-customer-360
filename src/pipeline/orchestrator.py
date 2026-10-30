@@ -52,22 +52,35 @@ class PipelineOrchestrator:
             unified = self.unifier.create_unified_view(
                 deduped_customers, valid_accounts, valid_orders, valid_interactions, run_id)
             
+            unified.to_csv(os.path.join(self.output_dir, f'unified_customers_{run_id}.csv'), index=False)
             unified.to_csv(os.path.join(self.output_dir, 'unified_customers.csv'), index=False)
             if all_rejected:
-                pd.DataFrame(all_rejected).to_csv(
-                    os.path.join(self.output_dir, 'rejected', f'rejected_{run_id}.csv'), index=False)
+                rej_df_run = pd.DataFrame(all_rejected)
+                rej_df_run.to_csv(os.path.join(self.output_dir, 'rejected', f'rejected_{run_id}.csv'), index=False)
             
             db = DatabaseManager(os.path.join(self.output_dir, 'customer_360.db'))
-            # Load only columns that exist
+            cursor = db.conn.cursor()
+            cursor.execute('DELETE FROM customers')
+            cursor.execute('DELETE FROM accounts')
+            cursor.execute('DELETE FROM orders')
+            cursor.execute('DELETE FROM interactions')
+            cursor.execute('DELETE FROM unified_customers')
+            cursor.execute('DELETE FROM rejected_records')
+            cursor.execute('DELETE FROM uncertain_customer_matches')
+            db.conn.commit()
+            
             customers_to_load = deduped_customers.copy()
             customers_to_load['run_id'] = run_id
             db.load_dataframe(customers_to_load, 'customers')
-            valid_accounts['run_id'] = run_id
-            db.load_dataframe(valid_accounts, 'accounts')
-            valid_orders['run_id'] = run_id
-            db.load_dataframe(valid_orders, 'orders')
-            valid_interactions['run_id'] = run_id
-            db.load_dataframe(valid_interactions, 'interactions')
+            valid_accounts_copy = valid_accounts.copy()
+            valid_accounts_copy['run_id'] = run_id
+            db.load_dataframe(valid_accounts_copy, 'accounts')
+            valid_orders_copy = valid_orders.copy()
+            valid_orders_copy['run_id'] = run_id
+            db.load_dataframe(valid_orders_copy, 'orders')
+            valid_interactions_copy = valid_interactions.copy()
+            valid_interactions_copy['run_id'] = run_id
+            db.load_dataframe(valid_interactions_copy, 'interactions')
             unified_out = unified.copy()
             unified_out['run_id'] = run_id
             db.load_dataframe(unified_out, 'unified_customers')
@@ -94,14 +107,22 @@ class PipelineOrchestrator:
                 'input_accounts': input_counts['accounts'],
                 'input_orders': input_counts['orders'],
                 'input_interactions': input_counts['interactions'],
-                'processed_records': len(deduped_customers) + len(valid_accounts) + len(valid_orders) + len(valid_interactions),
+                'processed_records': len(deduped_customers) + len(valid_accounts_copy) + len(valid_orders_copy) + len(valid_interactions_copy),
                 'rejected_records': len(all_rejected),
                 'output_records': len(unified),
                 'duplicates_found': len(duplicates),
                 'failure_reason': None
             }
             
-            db.load_dataframe(pd.DataFrame([run_stats]), 'pipeline_runs')
+            cursor.execute('INSERT OR REPLACE INTO pipeline_runs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+                           (run_stats['run_id'], run_stats['start_time'], run_stats['end_time'],
+                            run_stats['duration_seconds'], run_stats['status'],
+                            run_stats['input_customers'], run_stats['input_accounts'],
+                            run_stats['input_orders'], run_stats['input_interactions'],
+                            run_stats['processed_records'], run_stats['rejected_records'],
+                            run_stats['output_records'], run_stats['duplicates_found'],
+                            run_stats['failure_reason']))
+            db.conn.commit()
             db.close()
             
             self.logger.info(f'Pipeline completed successfully. Output: {len(unified)} unified customers')
